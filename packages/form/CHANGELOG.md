@@ -1,5 +1,13 @@
 # @my/form
 
+## 1.1.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @liulei19960114/button@1.2.1
+  - @liulei19960114/card@2.1.1
+
 ## 1.1.0
 
 ### Minor Changes

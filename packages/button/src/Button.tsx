@@ -46,6 +46,7 @@
        onClick={onClick}
      >
        {children}
+       <h1>Button</h1>
      </button>
    );
  };
