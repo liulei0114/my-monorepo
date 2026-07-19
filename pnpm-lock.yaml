@@ -36,7 +36,7 @@ importers:
 
   packages/card:
     dependencies:
-      '@my/button':
+      '@liulei19960114/button':
         specifier: workspace:*
         version: link:../button
       react:
@@ -58,10 +58,10 @@ importers:
 
   packages/form:
     dependencies:
-      '@my/button':
+      '@liulei19960114/button':
         specifier: workspace:*
         version: link:../button
-      '@my/card':
+      '@liulei19960114/card':
         specifier: workspace:*
         version: link:../card
       react:

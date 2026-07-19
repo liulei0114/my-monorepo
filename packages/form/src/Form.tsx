@@ -1,6 +1,6 @@
  import React, { useState } from "react";
- import { Button } from "@my/button";
- import { Card } from "@my/card";
+ import { Button } from "@liulei19960114/button";
+ import { Card } from "@liulei19960114/card";
  
  export interface FormField {
    name: string;

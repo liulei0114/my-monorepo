@@ -1,5 +1,5 @@
  import React from "react";
- import { Button } from "@my/button";
+ import { Button } from "@liulei19960114/button";
  
  export interface CardProps {
    title: string;
@@ -51,6 +51,7 @@
          <div style={footerStyle}>
            {footer}
            {onAction && <Button onClick={onAction}>{actionLabel}</Button>}
+           <h1>hello1</h1>
          </div>
        )}
      </div>

@@ -1,7 +1,7 @@
 {
-  "name": "@my/form",
-  "version": "1.0.1",
-  "description": "A form component that uses @my/card and @my/button",
+  "name": "@liulei19960114/form",
+  "version": "1.1.0",
+  "description": "A form component that uses @liulei19960114/card and @liulei19960114/button",
   "private": false,
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -16,14 +16,17 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json",
     "dev": "tsc -p tsconfig.esm.json --watch",
     "clean": "if (Test-Path dist) { Remove-Item -Recurse -Force dist }"
   },
   "dependencies": {
-    "@my/button": "workspace:*",
-    "@my/card": "workspace:*"
+    "@liulei19960114/button": "workspace:*",
+    "@liulei19960114/card": "workspace:*"
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",
