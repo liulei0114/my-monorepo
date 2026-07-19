@@ -68,7 +68,7 @@
  
    const labelStyle: React.CSSProperties = {
      display: "block",
-     marginBottom: 4,
+     marginBottom: 5,
      fontWeight: 500,
      fontSize: 14,
      color: "#334155",

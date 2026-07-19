@@ -1,6 +1,6 @@
 {
   "name": "@liulei19960114/form",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A form component that uses @liulei19960114/card and @liulei19960114/button",
   "private": false,
   "main": "./dist/cjs/index.js",
